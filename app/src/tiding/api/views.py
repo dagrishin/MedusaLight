@@ -3,7 +3,7 @@ from rest_framework.permissions import AllowAny
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .serializer import PublicationSerializer
-from src.tiding.models import Publication
+from ..models import Publication
 
 
 class PublicationView(ReadOnlyModelViewSet):
